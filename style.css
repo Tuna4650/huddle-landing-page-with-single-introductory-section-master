@@ -1,0 +1,143 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.logo {
+    margin: 4%;
+}
+
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url("images/bg-desktop.svg");
+}
+
+.boxone {
+    margin-left: 7%;
+
+}
+
+.boxtwo {
+    font-family: 'Open Sans', sans-serif;
+    width: 500px;
+    height: 450px;
+    margin-top: 4%;
+    margin-right: 15%;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 2.8rem;
+}
+
+p {
+    color: #ffffff;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    font-size: 1.2rem;
+    width: 600px;
+}
+
+
+
+
+
+.myButton {
+    box-shadow: 2px 5px 12px -8px #000000;
+    background-color: #ffffff;
+    border-radius: 27px;
+    border: 1px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #6d376d;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 13px 60px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #7b4db8;
+}
+
+.myButton:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: #ffffff;
+    border: 1px solid hsl(300, 69%, 71%);
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.footer {
+    padding-top: 6%;
+    padding-right: 3%;
+    float: right;
+    width: 300px;
+    height: 200px;
+}
+
+.social {
+    margin-left: 1.2%;
+    margin-right: 1.2%;
+    background-color: transparent;
+    border-radius: 42px;
+    border: 2px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 13px 20px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+}
+
+.social:hover {
+    background-color: transparent;
+}
+
+.social:active {
+    position: relative;
+    top: 1px;
+}
+
+
+
+
+
+@media (max-width: 900px) {
+    .boxone {
+        width: 650px;
+        margin-top: 20%;
+        margin-left: 7%;
+    }
+
+    .boxtwo {
+        margin-top: 20%;
+        float: none;
+        margin-left: 14%;
+        text-align: center;
+
+    }
+
+    body {
+        background-image: url("images/bg-mobile.svg");
+    }
+
+    .footer {
+        float: left;
+        margin-left: 35%;
+    }
+
+    .social {
+        font-size: 12px;
+    }
+
+    p {
+        width: 500px;
+    }
+}
